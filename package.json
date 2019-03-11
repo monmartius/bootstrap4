@@ -7,7 +7,7 @@
     "webpack": "webpack",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server"
   },
   "repository": "https://github.com/monmartius/bootstrap4.git",
   "author": "monmartius",
