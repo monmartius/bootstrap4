@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/monmartius/bootstrap4.git",
   "author": "monmartius",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
 }
