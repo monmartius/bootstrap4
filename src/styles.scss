@@ -1,2 +1,8 @@
-@import "custom";
+// @import "_custom";
 @import "~bootstrap/scss/bootstrap";
+
+body{
+	
+	background-color: red;
+	color: green;
+}

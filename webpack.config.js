@@ -41,8 +41,36 @@ module.exports = {
             },
 
 
+  // {
+  //   test: /\.(scss)$/,
+  //   use: [{
+  //     loader: 'style-loader', // inject CSS to page
+  //   }, {
+  //     loader: 'css-loader', // translates CSS into CommonJS modules
+  //   }, {
+  //     loader: 'postcss-loader', // Run post css actions
+  //     options: {
+  //       plugins: function () { // post css plugins, can be exported to postcss.config.js
+  //         return [
+  //           require('precss'),
+  //           require('autoprefixer')
+  //         ];
+  //       }
+  //     }
+  //   }, {
+  //     loader: 'sass-loader' // compiles SASS to CSS
+  //   }]
+  // },
 
 
+            // {
+            //     test: /\.scss$/,
+            //     use: [
+            //         MiniCssExtractPlugin.loader,
+            //         'css-loader',
+            //         'sass-loader'
+            //     ]
+            // },
 
 
             {
@@ -89,20 +117,20 @@ module.exports = {
 
 
 
-            {
-                test: /\.css$/,
-                use: [
-                    // {
-                    //  loader: MiniCssExtractPlugin.loader
-                    //  // options: {
-                    //  //   // you can specify a publicPath here
-                    //  //   // by default it use publicPath in webpackOptions.output
-                    //  //   publicPath: '../'
-                    //  // }
-                    // },
-                    "css-loader"
-                ]
-            }
+            // {
+            //     test: /\.css$/,
+            //     use: [
+            //         // {
+            //         //  loader: MiniCssExtractPlugin.loader
+            //         //  // options: {
+            //         //  //   // you can specify a publicPath here
+            //         //  //   // by default it use publicPath in webpackOptions.output
+            //         //  //   publicPath: '../'
+            //         //  // }
+            //         // },
+            //         "css-loader"
+            //     ]
+            // }
         ]
     },
 
@@ -141,10 +169,10 @@ module.exports = {
                 from: './src/favicon',
                 to: './favicon'
             },
-            {
-                from: './src/images',
-                to: './images'
-            },
+            // {
+            //     from: './src/images',
+            //     to: './images'
+            // },
             {
                 from: './src/uploads',
                 to: './uploads'
