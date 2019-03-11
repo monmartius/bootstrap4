@@ -113,7 +113,8 @@ module.exports = {
             template: 'src/index.html'
         }),
         new MiniCssExtractPlugin(),
-        new CleanWebpackPlugin(['./dist']),
+        // new CleanWebpackPlugin(['./dist']),
+        new CleanWebpackPlugin(),
         new Webpack.ProvidePlugin({
             $: 'jquery',
             jQuery: 'jquery',
@@ -152,5 +153,5 @@ module.exports = {
     ]
 
 
-    
+
 }
